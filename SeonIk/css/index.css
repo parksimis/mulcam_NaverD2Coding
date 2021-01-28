@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* index.css
+기본 레이아웃 화면 구성
+*/
+
+/*------------- HEADER -------------*/
+#headerBox {
+    width: 100%;
+    float: left;
+    display: inline-block;
+    height: 69px;
+    line-height: 69px;
+    background-color: white;
+    padding-top: 10px;
+    border-bottom: solid 1px gray;
+    padding-bottom: 0;
+}
+
+#headerBox img{
+    border: none;
+    width: 120px;
+    height: 27px;
+}
+
+#logoBox{
+    padding-left: 15%;
+    float: left;
+    height: 69px;
+    line-height: 69px;
+    text-align: center;
+}
+
+/*------------- Main Menu Box -------------*/
+
+#mainMenuBox {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+
+#menuItem li {
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#menuItem li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+    margin: 10px;
+}
+#menuItem li a:hover{
+    color: black;
+}
+#inputBox {
+    padding-right: 15%;
+    float: right;
+    margin: 0 auto;
+}
+
+#inputBox input{
+    width: 230px;
+    height: 31px;
+    size: 230px;
+    border: solid 1px #999999;
+}
+
+#inputBox button{
+    width: 43px;
+    height: 31px;
+    background-color: white;
+    border: none;
+    border-left: solid 1px #999999;
+    margin-left: 10px;
+}
+#inputBox img{
+    width: 21px;
+    height: 19px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* 공통적으로 적용되는 속성 */
+* {
+    margin: 0 auto;
+}
+
+#wrap {
+    width: 100%;
+    background-color: snow;
+    text-align: center;
+    position: relative;
+}
+
+img {
+    border: solid 1px black;
+}
+
