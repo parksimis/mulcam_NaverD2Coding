@@ -21,20 +21,27 @@
 
 
 
-## 👯‍♂️ 구성원
+## 👯‍♂️ Introduction
 
-| #    | 이름                                         |
-| ---- | -------------------------------------------- |
-| 1    | [박선익](https://github.com/parksimis)       |
-| 2    | [김은영](https://github.com/rootlessE0)      |
-| 3    | [김동현](https://github.com/KIMDONGHYEON003) |
+<table style="text-align: center;">
+    <tr><th>프로젝트명</th><th colspan='2'>NAVER D2 Clone Coding</th></tr>
+    <tr><th colspan='3' align='center'>구성원</th></tr>
+    <tr><th>이름</th><th>역할</th><th>비고</th></tr>
+    <tr><td>김은영</td><td>팀장</td><td><a href='https://github.com/rootlessE00'>github</a></td>
+    <tr><td>박선익</td><td>팀원</td><td><a href='https://github.com/parksimis'>github</a></td></tr>
+	<tr><td>김동현</td><td>팀원</td><td><a href='https://github.com/KIMDONGHYEON003'>github</a></td></tr>
+	<tr><th>개발언어</th><td colspan='2'>javascript</td></tr>
+	<tr><th>형상관리</th><td colspan='2'>Git, Github</td></tr>
+	<tr><th>개발도구</th><td colspan='2 '>Pycharm</td></tr>
+</table>
 
 
 
-## 💻 사용도구
+## ⚒ Role
 
-|   개발언어   |     javascript      |
-| :----------: | :-----------------: |
-| **형상관리** | **Git**, **Github** |
-| **개발도구** |     **Pycharm**     |
+| 구성원 |                업무                |
+| :----: | :--------------------------------: |
+| 김은영 | 팀장 /  `<aside>` `<content>` 담당 |
+| 박선익 |    `<header>` / `<content>`담당    |
+| 김동현 |        D2 Program page 담당        |
 
