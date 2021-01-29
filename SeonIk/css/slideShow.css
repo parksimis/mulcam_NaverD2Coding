@@ -3,45 +3,56 @@
 slideShow.css
 */
 
-
 #slideShow{
     position: relative;
-    border: solid 1px red;
     background-color: snow;
+    display: inline-block;
     width: 100%;
     height: 440px;
     line-height: 440px;
 }
 
-#prevButton{
-    background: url("../image/m_arrow.png") center no-repeat;
-    background-position: 0 center;
-    width: 30px;
-    top: 0;
-    left: 18px;
-    bottom: 0;
-    background-color: black;
-    position: absolute;
-    display: inline-block;
-    z-index: 5;
+#slideShowBox{
+    width: 100%;
+    height: 440px;
+    text-align: center;
 }
 
-#NextButton{
-    background: url("../image/m_arrow.png") center no-repeat;
-    background-position: -60px center;
-    width: 30px;
-    top: 0;
-    right: 18px;
-    bottom: 0;
-    background-color: black;
-    position: absolute;
-    display: inline-block;
-    z-index: 5;
+#slidePanel{
+    width: 7600px;
+    height: 440px;
+    float: left;
 }
 
-/*#slidePanel{*/
-/*    position: relative;*/
-/*    width: 7600px;*/
-/*    height: 440px;*/
-/*    float: left;*/
+.slideImage{
+    float: left;
+    width: 1900px;
+    height: 440px;
+}
+/*#prevButton{*/
+/*    background: url("../image/m_arrow.png") center no-repeat;*/
+/*    background-position: 0 center;*/
+/*    width: 30px;*/
+/*    top: 0;*/
+/*    left: 18px;*/
+/*    bottom: 0;*/
+/*    position: absolute;*/
+/*    display: inline-block;*/
+/*    border: solid 1px black;*/
+/*    z-index: 5;*/
+/*    cursor: pointer;*/
 /*}*/
+
+/*#NextButton{*/
+/*    background: url("../image/m_arrow.png") center no-repeat;*/
+/*    background-position: -60px center;*/
+/*    width: 30px;*/
+/*    top: 0;*/
+/*    right: 18px;*/
+/*    bottom: 0;*/
+/*    background-color: black;*/
+/*    position: absolute;*/
+/*    display: inline-block;*/
+/*    z-index: 5;*/
+/*}*/
+

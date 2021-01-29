@@ -6,28 +6,30 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/slideShow.css">
+    <link rel="stylesheet" href="css/tabMenu.css">
 </head>
 <body>
     <div id="wrap">
         <header>
             <div id="headerBox">
                 <div id="logoBox"><a href="https://d2.naver.com/home" target="_blank"><img src="image/d2_logo.gif" id="logoImg"></a></div>
-                <div id="mainMenuBox">
-                    <ul id="menuItem">
-                        <li><a href="#">Hello world</a></li>
-                        <li><a href="#">D2 News</a></li>
-                        <li><a href="#">D2 Program</a></li>
-                        <li><a href="#">About D2</a></li>
-                    </ul>
-                </div>
+                <div id="topMenuBox"><span>Hello world</span><span>D2 News</span><span>D2 Program</span><span>About D2</span></div>
                 <div id="inputBox">
-                    <div>
-                        <input type="text" placeholder="D2에서 검색">
-                        <button type="submit" ref='#' id="searchImg"><img src="image/spr_btn_search.png"></button>
-                    </div>
+                    <input type="text" placeholder="D2에서 검색">
+                    <button type="submit" href='#' id="searchImg"><img src="image/spr_btn_search.png"></button>
                 </div>
             </div>
         </header>
+        <nav>
+            <div id="tabMenuBox">
+                <ul>
+                    <li><a href="#">Hello world</a></li>
+                    <li><a href="#">D2 News</a></li>
+                    <li><a href="#">D2 Program</a></li>
+                    <li><a href="#">About D2</a></li>
+                </ul>
+            </div>
+        </nav>
         <section>
             <article id="slideShow">
                 <div id="prevNextButtonBox">
@@ -36,10 +38,6 @@
                 </div>
                 <div id="slideShowBox">
                     <div id="slidePanel">
-                        <img src="image/Slide1.png">
-                        <img src="image/Slide2.png">
-                        <img src="image/Slide3.png">
-                        <img src="image/Slide4.png">
                     </div>
                 </div>
                 <div id="controlPanel"></div>
@@ -71,12 +69,12 @@
         </aside>
         <footer>
             <div id="footerBox">
-	            <div id="naverDeveloper"><img src="image/logo_naverDeveloper.png"></div>
-	            <div id="naverTechConcert"><img src="image/logo_naverTechConcert.png"></div>
-	            <div id="deview"><img src="images/logo_deview.png"></div>
-	            <div id="openSource"><img src="image/logo_openSource.png"></div>
-	            <div id="D2StartupFactory"><img src="image/logo_D2StartupFactory.png"></div>
-				<div id="moveToTopBox"><img src="image/moveToTop.png" id="moveToTop"></div>
+	            <div id="naverDeveloper"><img src=""></div>
+	            <div id="naverTechConcert"><img src=""></div>
+	            <div id="deview"><img src=""></div>
+	            <div id="openSource"><img src=""></div>
+	            <div id="D2StartupFactory"><img src=""></div>
+				<div id="moveToTopBox"><img src="" id="moveToTop"></div>
             </div>
         </footer>
     </div><!-- wrap 끝 -->
