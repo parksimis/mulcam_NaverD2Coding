@@ -1,13 +1,13 @@
-@charset "UTF-8";
+/*
+common.css
+ */
 
-/* 공통적으로 적용되는 속성 */
+/* 공통 정의 속성 */
+
 * {margin: 0 auto;}
 
 #wrap {
-    width: 100%;
     position: relative;
-    text-align: center;
-    background-color: snow;
+    background-color: white;
+    min-height: 100%;
 }
-
-

@@ -1,58 +1,103 @@
-@charset "UTF-8";
 /*
 slideShow.css
-*/
+ */
 
-#slideShow{
+#slideShow {
     position: relative;
-    background-color: snow;
-    display: inline-block;
-    width: 100%;
     height: 440px;
     line-height: 440px;
+    border-bottom: solid 1px gray;
+    border-top: solid 1px gray;
 }
 
-#slideShowBox{
-    width: 100%;
+#prevNextButtonBox {
+    position: relative;
+}
+#prevButton {
+    position: absolute;
+    left: 20px;
+    opacity: 0.6;
+    background: url("../image/m_arrow.png") center no-repeat;
+    background-position: 0 center;
+    width: 30px;
+    height: 94px;
+    top: 150px;
+    bottom: 0;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#nextButton {
+    position: absolute;
+    opacity: 0.6;
+    right: 20px;
+    background: url("../image/m_arrow.png") center no-repeat;
+    background-position: -70px center;
+    width: 30px;
+    height: 94px;
+    top: 150px;
+    bottom: 0;
+    z-index: 10;
+    cursor: pointer;
+}
+#prevButton:hover {
+    opacity: 1;
+}
+
+#nextButton:hover {
+    opacity: 1;
+}
+#slideShowBox {
+    width: 1900px;
     height: 440px;
     text-align: center;
+    overflow: hidden;
 }
 
-#slidePanel{
+#slidePanel {
+    position: relative;
     width: 7600px;
     height: 440px;
     float: left;
 }
 
-.slideImage{
+.slideImage {
     float: left;
     width: 1900px;
     height: 440px;
 }
-/*#prevButton{*/
-/*    background: url("../image/m_arrow.png") center no-repeat;*/
-/*    background-position: 0 center;*/
-/*    width: 30px;*/
-/*    top: 0;*/
-/*    left: 18px;*/
-/*    bottom: 0;*/
-/*    position: absolute;*/
-/*    display: inline-block;*/
-/*    border: solid 1px black;*/
-/*    z-index: 5;*/
-/*    cursor: pointer;*/
-/*}*/
 
-/*#NextButton{*/
-/*    background: url("../image/m_arrow.png") center no-repeat;*/
-/*    background-position: -60px center;*/
-/*    width: 30px;*/
-/*    top: 0;*/
-/*    right: 18px;*/
-/*    bottom: 0;*/
-/*    background-color: black;*/
-/*    position: absolute;*/
-/*    display: inline-block;*/
-/*    z-index: 5;*/
-/*}*/
+#controlPanel {
+    position: absolute;
 
+    width: 100%;
+    height: 22px;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 29px;
+    padding: 0;
+}
+
+#controlPanel li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    margin: 6px;
+    padding: 0;
+    bottom: 210px;
+}
+#controlPanel button {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 0;
+    border-radius: 6px;
+    line-height: 50px;
+    cursor: pointer;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+#controlPanel button:hover {
+    opacity: 1;
+}

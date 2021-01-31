@@ -1,89 +1,71 @@
-@charset "UTF-8";
+/*
+index.css
+ */
 
-/* index.css
-기본 레이아웃 화면 구성
-*/
+/* ------------------- HEADER ------------------- */
 
-/*------------- HEADER -------------*/
-#headerBox {
-    position: relative;
-    width: 100%;
-    float: left;
+#headerBox{
+    width: 70%;
     height: 69px;
     line-height: 69px;
-    background-color: white;
-    padding-top: 10px;
-    border-bottom: solid 1px gray;
-    padding-bottom: 0;
+    padding: 0;
 }
-
-#headerBox img{
-    border: none;
+#logoBox {
+    display: inline-block;
+    background: url("../image/d2_logo.gif");
+    background-size: 120px 27px;
     width: 120px;
     height: 27px;
-    margin-right: 30px;
-}
-
-#logoBox{
-    padding-left: 15%;
-    float: left;
-    height: 69px;
-    line-height: 69px;
-    text-align: center;
-}
-#topMenuBox span{
-    float: left;
-    height: 69px;
-    line-height: 69px;
-    margin-right: 10px;
-    margin-left: 10px;
     cursor: pointer;
-    font-size: 16px;
-    text-align: center;
-    color: gray;
 }
 
-#topMenuBox span:hover{
+#topMenuBox {
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+#topMenuBox a{
+    padding-right: 20px;
+    color: gray;
+    cursor: pointer;
+}
+#topMenuBox a:hover{
     color: black;
 }
 #inputBox {
-    position: relative;
     float: right;
-    margin-right: 15%;
-    height: 40px;
+    display: inline-block;
+    height: 69px;
     line-height: 69px;
-    top: 10px;
-}
-
-#inputBox input{
-    float: left;
-    display: inline-block;
-    width: 230px;
-    height: 34px;
-    size: 230px;
-}
-
-#inputBox button{
-    float: left;
-    display: inline-block;
-    height: 40px;
-    line-height: 34px;
-    border: none;
-    background-color: white;
-    border-left: solid 1px gray;
-    margin-left: 10px;
     text-align: center;
 }
 
-#inputBox img{
-    width: 19px;
-    height: 21px;
-    margin-top: 8px;
-    line-height: 40px;
-    background-color: white;
+#inputBox input{
+    display: none;
+    width: 230px;
+    height: 36px;
+    margin-right: 10px;
+}
+#inputBox button {
+    display: inline-block;
+    width: 43px;
+    height: 36px;
+    line-height: 36px;
     cursor: pointer;
+    background: white;
+    text-align: center;
+    border: none;
+    border-left: solid 1px gray;
 }
 
+#inputBox img {
+    display: inline;
+    width: 19px;
+    height: 21px;
+}
 
-
-
+.mainMenuFixed{
+    position: fixed;
+    top: 0px;
+}
