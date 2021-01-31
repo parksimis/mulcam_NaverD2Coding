@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* content.css */
+
+/*****************content********************/
+
+
+
+#contentBox .deview div{
+    display:inline-block;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top:40px;
+    margin-left:90px;
+}
+#deviewImg{
+
+}
+
+#contentBox .techConcert div{
+    display:inline-block;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top:90px;
+    margin-left:90px;
+}
+
+#techImg{
+
+}
+
+#contentBox .campusFest div{
+    display:inline-block;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top:90px;
+    margin-left:90px;
+}
+
+#campusFestImg{
+
+}
+
+#contentBox .d2_Campus div{
+    display:inline-block;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top:90px;
+    margin-left:90px;
+}
+
+#d2CampusImg{
+
+}
+
+#contentBox .community div{
+    display:inline-block;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top:90px;
+    margin-left:90px;
+}
+
+#communityImg{
+
+}
+
+
