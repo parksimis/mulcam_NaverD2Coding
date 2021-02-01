@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* article.css */
+
+/* 전체 적용 */
+a, h2{
+    text-decoration:none;
+    font-weight: normal;
+}
+
+
+/* container */
+#container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* con_area */
+#container div{
+    display: block;
+}
+
+#container .con_area {
+    position: relative;
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 160px;
+}
+
+/* cont */
+.cont h2 a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.contents .cont {
+    position: relative;
+    max-width: 640px;
+    padding-right: 200px;
+    border-bottom: 2px solid red;/*#ededed; 구분선 */
+}
+
+/* image 위치 조정 */
+.contents .cont .image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 169.99px;
+    height: 120px;
+}
+
+
+/* image 칸에 맞춰서 꽉차게 표현 */
+.image img {
+    height:100%;
+    width:100%;
+}
+
+/* 게시 날짜, 조회수 dl */
+.con_area .contents .cont dl {
+    font-size: 12px;
+    color: #b5b5b5;
+    overflow: hidden;
+    padding: 7px 0;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.con_area .contents .cont dt {
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+
+.con_area .contents .cont dd {
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* aside */
+/* 위치 조정 */
+.con_area .sidebar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:250px;
+    height:100%;
+}
+
+/* aside_TOP5 */
+.sidebar .Top5{
+    display:block;
+    margin-bottom: 34px;
+    padding: 18px 0 14px;
+    border-bottom: 1px solid #ececec;
+}
+
+/* text 설정 */
+.sidebar .Top5 ol li a{
+    text-decoration:none;
+    color: #666666;
+}
+
+/* aside_TOPKEYWORDS */
+.sidebar .TopKeywords{
+    display:block;
+    padding: 21px 0 22px;
+    border-bottom: 1px solid #ececec;
+}
+
+.con_area .contents .cont .cont_text{
+    line-height: 20px;
+    max-height: 40px;
+    margin-bottom: 15px;
+    text-overflow:ellipsis; /* overflow된 텍스트는 ...으로 처리*/
+    overflow: hidden; /*overflow*/
+    font-size: 14px;
+}
+
