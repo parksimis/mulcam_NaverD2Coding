@@ -11,12 +11,14 @@ index.css
     padding: 0;
 }
 #logoBox {
+    position: relative;
     display: inline-block;
     background: url("../image/d2_logo.gif");
     background-size: 120px 27px;
     width: 120px;
     height: 27px;
     cursor: pointer;
+    top: 8px;
 }
 
 #topMenuBox {
@@ -42,10 +44,14 @@ index.css
 }
 
 #inputBox input{
-    display: none;
+    display: inline-block;
     width: 230px;
     height: 36px;
     margin-right: 10px;
+}
+
+.removeInputBox {
+    display: none;
 }
 #inputBox button {
     display: inline-block;
