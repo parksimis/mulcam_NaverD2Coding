@@ -14,6 +14,8 @@
 }
 
 
+
+
 #contentBox .techConcert div{
     display:inline-block;
     overflow: hidden;
@@ -22,9 +24,6 @@
     margin-left:90px;
 }
 
-#techImg{
-
-}
 
 #contentBox .campusFest div{
     display:inline-block;
@@ -34,9 +33,6 @@
     margin-left:90px;
 }
 
-#campusFestImg{
-
-}
 
 #contentBox .d2_Campus div{
     display:inline-block;
@@ -46,9 +42,7 @@
     margin-left:90px;
 }
 
-#d2CampusImg{
 
-}
 
 #contentBox .community div{
     display:inline-block;
@@ -58,10 +52,7 @@
     margin-left:90px;
 }
 
-#communityImg{
-
-}
-
+/* 글씨 이미지 넣기 */
 
 #deviewText strong{
     background-size: 130px 23px;
@@ -124,4 +115,11 @@
     background-size: 670px 400px;
     color: transparent;
     line-height: 100px;
+}
+
+
+/**********가운데 정렬*/
+
+#deviewText {
+    margin:auto;
 }
