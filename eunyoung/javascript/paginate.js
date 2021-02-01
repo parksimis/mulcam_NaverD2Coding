@@ -1,0 +1,6 @@
+/* paginate.js */
+
+$(function{
+
+
+});
