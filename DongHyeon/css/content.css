@@ -12,9 +12,7 @@
     margin-top:40px;
     margin-left:90px;
 }
-#deviewImg{
 
-}
 
 #contentBox .techConcert div{
     display:inline-block;
@@ -65,3 +63,65 @@
 }
 
 
+#deviewText strong{
+    background-size: 130px 23px;
+    width: 130px;
+    height: 23px;
+    background-image: url(https://d2.naver.com/static/img/app/logo-deview.svg);
+    overflow: hidden;
+    display: block;
+
+}
+
+#techText strong{
+    width: 232px;
+    height: 24px;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 15px;
+    background: url(https://d2.naver.com/static/img/app/sp_program_logo_v3.png) no-repeat;
+    background-position: -368px -296px;
+    background-size: 670px 400px;
+    color: transparent;
+    line-height: 100px;
+}
+
+#FestText strong{
+    width: 131px;
+    height: 38px;
+
+    overflow: hidden;
+    display: block;
+    margin-bottom: 15px;
+    background: url(https://d2.naver.com/static/img/app/sp_program_logo_v3.png) no-repeat;
+    background-position: -212px 0;
+    background-size: 670px 400px;
+    color: transparent;
+    line-height: 100px;
+}
+
+#campusText strong{
+    width: 154px;
+    height: 33px;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 15px;
+    background: url(https://d2.naver.com/static/img/app/sp_program_logo_v3.png) no-repeat;
+    background-position: -212px -105px;
+    background-size: 670px 400px;
+    color: transparent;
+    line-height: 100px;
+}
+
+#communityText strong{
+    width: 206px;
+    height: 33px;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 15px;
+    background: url(https://d2.naver.com/static/img/app/sp_program_logo_v3.png) no-repeat;
+    background-position: 0 0;
+    background-size: 670px 400px;
+    color: transparent;
+    line-height: 100px;
+}
