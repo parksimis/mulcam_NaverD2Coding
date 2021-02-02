@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 slideShow.css
  */
@@ -48,6 +49,7 @@ slideShow.css
     opacity: 1;
 }
 #slideShowBox {
+    position: relative;
     width: 1900px;
     height: 440px;
     text-align: center;
@@ -55,7 +57,7 @@ slideShow.css
 }
 
 #slidePanel {
-    position: relative;
+    position: absolute;
     width: 7600px;
     height: 440px;
     float: left;
