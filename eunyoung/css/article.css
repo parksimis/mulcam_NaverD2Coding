@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* article.css */
-
 /* 전체 적용 */
 a, h2{
     text-decoration:none;
@@ -25,7 +24,7 @@ a, h2{
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
-    padding-top: 0px;
+    padding-top: 18px;
     padding-bottom: 160px;
 }
 
@@ -39,7 +38,16 @@ a, h2{
     position: relative;
     max-width: 640px;
     padding-right: 200px;
-    border-bottom: 2px solid red;/*#ededed; 구분선 */
+    border-bottom: 2px solid #ededed;
+}
+
+.con_area .contents .cont .cont_text{
+    line-height: 20px;
+    max-height: 40px;
+    margin-bottom: 15px;
+    text-overflow:ellipsis; /* overflow된 텍스트는 ...으로 처리*/
+    overflow: hidden; /*overflow*/
+    font-size: 14px;
 }
 
 /* image 위치 조정 */
@@ -78,45 +86,5 @@ a, h2{
     float: left;
     margin-left: 5px;
     margin-right: 5px;
-}
-
-/* aside */
-/* 위치 조정 */
-.con_area .sidebar{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width:250px;
-    height:100%;
-}
-
-/* aside_TOP5 */
-.sidebar .Top5{
-    display:block;
-    margin-bottom: 34px;
-    padding: 18px 0 14px;
-    border-bottom: 1px solid #ececec;
-}
-
-/* text 설정 */
-.sidebar .Top5 ol li a{
-    text-decoration:none;
-    color: #666666;
-}
-
-/* aside_TOPKEYWORDS */
-.sidebar .TopKeywords{
-    display:block;
-    padding: 21px 0 22px;
-    border-bottom: 1px solid #ececec;
-}
-
-.con_area .contents .cont .cont_text{
-    line-height: 20px;
-    max-height: 40px;
-    margin-bottom: 15px;
-    text-overflow:ellipsis; /* overflow된 텍스트는 ...으로 처리*/
-    overflow: hidden; /*overflow*/
-    font-size: 14px;
 }
 

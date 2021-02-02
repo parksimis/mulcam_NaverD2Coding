@@ -1,2 +1,12 @@
 /* paginate.css */
+.con_area .paginateBox {
+    position: relative;
+    max-width: 840px;
+    padding-bottom: 100px;
+    height: 30px;
+    text-align: center;
+    overflow: hidden;
+    clear: both;
+    margin-right: 270px;
+}
 
