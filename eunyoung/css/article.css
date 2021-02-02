@@ -1,25 +1,22 @@
 @charset "UTF-8";
 /* article.css */
 /* 전체 적용 */
-a, h2{
-    text-decoration:none;
-    font-weight: normal;
-}
-
-
 /* container */
+
 #container {
     position: relative;
     width: 100%;
     margin: 0 auto;
 }
 
-/* con_area */
-#container div{
-    display: block;
+#container a, h2{
+    text-decoration:none;
+    font-weight: normal;
 }
 
+/* con_area */
 #container .con_area {
+    display: block;
     position: relative;
     width: 100%;
     max-width: 1180px;
@@ -87,4 +84,3 @@ a, h2{
     margin-left: 5px;
     margin-right: 5px;
 }
-
