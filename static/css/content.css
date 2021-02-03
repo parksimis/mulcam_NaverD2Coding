@@ -5,6 +5,7 @@
 
 #contentBox {
     position: relative;
+    font-size: 14px;
 }
 
 #show {
@@ -25,7 +26,6 @@
     overflow: hidden;
     margin-bottom: 40px;
     margin-top:70px;
-
     color: #666;
     padding: 22px 0 0 50px;
 }
