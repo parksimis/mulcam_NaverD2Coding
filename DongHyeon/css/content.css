@@ -9,8 +9,8 @@
     display:inline-block;
     overflow: hidden;
     margin-bottom: 40px;
-    margin-top:40px;
-    margin-left:90px;
+    margin-top:20px;
+    margin-left:100px;
 }
 
 
@@ -20,8 +20,8 @@
     display:inline-block;
     overflow: hidden;
     margin-bottom: 40px;
-    margin-top:90px;
-    margin-left:90px;
+    margin-top:30px;
+    margin-left:100px;
 }
 
 
@@ -29,8 +29,8 @@
     display:inline-block;
     overflow: hidden;
     margin-bottom: 40px;
-    margin-top:90px;
-    margin-left:90px;
+    margin-top:30px;
+    margin-left:100px;
 }
 
 
@@ -38,8 +38,8 @@
     display:inline-block;
     overflow: hidden;
     margin-bottom: 40px;
-    margin-top:90px;
-    margin-left:90px;
+    margin-top:30px;
+    margin-left:100px;
 }
 
 
@@ -48,8 +48,8 @@
     display:inline-block;
     overflow: hidden;
     margin-bottom: 40px;
-    margin-top:90px;
-    margin-left:90px;
+    margin-top:30px;
+    margin-left:100px;
 }
 
 /* 글씨 이미지 넣기 */
@@ -120,6 +120,6 @@
 
 /**********가운데 정렬*/
 
-#deviewText {
-    margin:auto;
+#deviewText{
+    margin-left : 10px;
 }
