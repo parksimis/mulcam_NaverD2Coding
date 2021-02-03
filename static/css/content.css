@@ -24,8 +24,10 @@
     display:inline-block;
     overflow: hidden;
     margin-bottom: 40px;
-    margin-top:30px;
-    margin-left:100px;
+    margin-top:70px;
+
+    color: #666;
+    padding: 22px 0 0 50px;
 }
 
 #contentBox .techConcert div{
@@ -33,7 +35,9 @@
     overflow: hidden;
     margin-bottom: 40px;
     margin-top:30px;
-    margin-left:100px;
+
+    color: #666;
+    padding: 22px 0 0 50px;
 }
 
 #contentBox .campusFest div{
@@ -41,7 +45,9 @@
     overflow: hidden;
     margin-bottom: 40px;
     margin-top:30px;
-    margin-left:100px;
+
+    color: #666;
+    padding: 22px 0 0 50px;
 }
 
 
@@ -50,7 +56,9 @@
     overflow: hidden;
     margin-bottom: 40px;
     margin-top:30px;
-    margin-left:100px;
+
+    color: #666;
+    padding: 22px 0 0 50px;
 }
 
 
@@ -60,7 +68,9 @@
     overflow: hidden;
     margin-bottom: 40px;
     margin-top:30px;
-    margin-left:100px;
+
+    color: #666;
+    padding: 22px 0 0 50px;
 }
 
 /* 글씨 이미지 넣기 */
@@ -138,3 +148,11 @@
 
 /**********가운데 정렬*/
 
+#deviewText{
+    vertical-align:top;
+
+}
+#techText{vertical-align:top;}
+#FestText{vertical-align:top;}
+#campusText{vertical-align:top;}
+#communityText{vertical-align:top;}
