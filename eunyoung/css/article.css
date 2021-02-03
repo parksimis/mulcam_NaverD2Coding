@@ -9,10 +9,12 @@
     margin: 0 auto;
 }
 
-#container a, h2{
+#container .con_area .contents a, h2{
     text-decoration:none;
     font-weight: normal;
+    color: #666;
 }
+
 
 /* con_area */
 #container .con_area {

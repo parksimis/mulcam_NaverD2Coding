@@ -64,6 +64,7 @@
 }
 
 .sidebar .TopKeywords .keywords_list a{
+    text-decoration:none;
     display: inline-block;
     margin: 0 6px 9px 0;
     padding: 0 18px;
