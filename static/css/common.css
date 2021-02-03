@@ -1,0 +1,13 @@
+/*
+common.css
+ */
+
+/* 공통 정의 속성 */
+
+* {margin: 0 auto;}
+
+#wrap {
+    position: relative;
+    background-color: white;
+    min-height: 100%;
+}
