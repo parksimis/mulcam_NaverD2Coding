@@ -58,7 +58,7 @@
     background-size: 130px 23px;
     width: 130px;
     height: 23px;
-    background-image: url(https://d2.naver.com/static/img/app/logo-deview.svg);
+    background-image: url(..image/logo-deview.svg);
     overflow: hidden;
     display: block;
 
@@ -70,7 +70,7 @@
     overflow: hidden;
     display: block;
     margin-bottom: 15px;
-    background: url(https://d2.naver.com/static/img/app/sp_program_logo_v3.png) no-repeat;
+    background: url(..image/sp_program_logo_v3.png) no-repeat;
     background-position: -368px -296px;
     background-size: 670px 400px;
     color: transparent;
@@ -84,7 +84,7 @@
     overflow: hidden;
     display: block;
     margin-bottom: 15px;
-    background: url(https://d2.naver.com/static/img/app/sp_program_logo_v3.png) no-repeat;
+    background: url(..image/sp_program_logo_v3.png) no-repeat;
     background-position: -212px 0;
     background-size: 670px 400px;
     color: transparent;
@@ -97,7 +97,7 @@
     overflow: hidden;
     display: block;
     margin-bottom: 15px;
-    background: url(https://d2.naver.com/static/img/app/sp_program_logo_v3.png) no-repeat;
+    background: url(..image/sp_program_logo_v3.png) no-repeat;
     background-position: -212px -105px;
     background-size: 670px 400px;
     color: transparent;
@@ -110,7 +110,7 @@
     overflow: hidden;
     display: block;
     margin-bottom: 15px;
-    background: url(https://d2.naver.com/static/img/app/sp_program_logo_v3.png) no-repeat;
+    background: url(..image/sp_program_logo_v3.png) no-repeat;
     background-position: 0 0;
     background-size: 670px 400px;
     color: transparent;

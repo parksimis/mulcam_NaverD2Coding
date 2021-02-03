@@ -13,6 +13,7 @@
 
 #content {
     position: relative;
+
 }
 
 #contentBox .deview div{
@@ -64,9 +65,12 @@
     background-size: 130px 23px;
     width: 130px;
     height: 23px;
+    margin-left: 0px;
+    margin-bottom: 30px;
     background-image: url(https://d2.naver.com/static/img/app/logo-deview.svg);
     overflow: hidden;
     display: block;
+    line-height: 100px;
 
 }
 
@@ -75,7 +79,8 @@
     height: 24px;
     overflow: hidden;
     display: block;
-    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-bottom: 30px;
     background: url(https://d2.naver.com/static/img/app/sp_program_logo_v3.png) no-repeat;
     background-position: -368px -296px;
     background-size: 670px 400px;
@@ -89,7 +94,8 @@
 
     overflow: hidden;
     display: block;
-    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-bottom: 30px;
     background: url(https://d2.naver.com/static/img/app/sp_program_logo_v3.png) no-repeat;
     background-position: -212px 0;
     background-size: 670px 400px;
@@ -102,7 +108,8 @@
     height: 33px;
     overflow: hidden;
     display: block;
-    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-bottom: 30px;
     background: url(https://d2.naver.com/static/img/app/sp_program_logo_v3.png) no-repeat;
     background-position: -212px -105px;
     background-size: 670px 400px;
@@ -115,7 +122,8 @@
     height: 33px;
     overflow: hidden;
     display: block;
-    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-bottom: 30px;
     background: url(https://d2.naver.com/static/img/app/sp_program_logo_v3.png) no-repeat;
     background-position: 0 0;
     background-size: 670px 400px;
@@ -126,6 +134,3 @@
 
 /**********가운데 정렬*/
 
-#deviewText{
-    margin-left : 10px;
-}
